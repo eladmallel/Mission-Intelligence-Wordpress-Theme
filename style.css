@@ -1,0 +1,389 @@
+/* ! RESET */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,font,img,ins,kbd,q,s,samp,small,strike,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+	{
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+}
+
+:focus {
+	outline: 0
+}
+
+body {
+	background: #f0f0f0;
+	font-family: 'Helvetica Neue',Helvetica,Arial,"Myriad Pro",sans-serif;
+}
+
+a {
+	color: #327ABD;
+	text-decoration: none;	
+}
+
+#topbarcontainercontainer {
+	position: relative;
+	width: 100%;	
+}
+
+#footertopshadow {
+	width: 100%;
+	height: 6px;
+	background-image: url('http://www.missionintelligence.org/wp-content/uploads/2011/10/shadow_top1.png');
+	background-repeat:repeat-x;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+}
+
+#topbarbottomshadow {
+	width: 100%;
+	height: 6px;
+	background-image: url('http://www.missionintelligence.org/wp-content/uploads/2011/10/shadow_top1.png');
+	background-repeat:repeat-x;
+	position: absolute;
+	bottom: -6px;
+	z-index: 1000;		
+}
+
+#topbarcontainer {
+	margin-left: 34px;
+	padding-top: 16px;
+	min-width: 960px;
+	
+	width: 960px;
+	margin: 0 auto;
+}
+
+#mititle {
+	display: inline;
+	margin-left: 10px;
+}
+
+#mititle a {
+	/*color: #434784;*/
+	/*color: #327ABD;*/
+	color: #00316e;
+	/*color: #726e6f;*/
+	font-size: 24px;
+	text-decoration: none;	
+}
+
+#milogo {
+	vertical-align: middle;
+	margin-bottom: 14px;
+}
+
+#navtable {
+	float: right;
+	margin-top: -15px;
+	/*margin-right: 40px;*/
+	color: #726e6f;
+	border-spacing:0px;
+	font-size: 14px;
+}
+
+#navtable td {
+	/*padding-left: 20px;
+	padding-right: 20px;*/
+	height: 80px;
+	vertical-align: bottom;
+	cursor: pointer;
+}
+
+#navtable td:hover {
+	background: url('http://www.missionintelligence.org/wp-content/uploads/2011/10/MI_sprite.png') 0 0;	
+}
+
+#navtable td div {
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+	
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #fff;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	height: 80px;
+}
+
+#navtable a {
+	color: #726e6f;
+	text-decoration: none;	
+}
+
+#navtable tr td div.lastchild {
+  border-right: 0;
+}
+
+#navtable tr td:first-child div {
+  border-left: 0;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fff;
+}
+
+#mainimgcontainer {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#slidecontainercontainer {
+	background: #00316e;
+	width: 100%;
+	position: relative;
+}
+
+#bottomshadowcontainer {
+	background-image: url('http://www.missionintelligence.org/wp-content/uploads/2011/10/shadow_bottom.png');
+	background-repeat:repeat-x;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 6px;	
+}
+
+#slidecontainer {
+	background: #00316e;
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+	z-index: 200;
+}
+
+#introtextcontainer {
+	display: table;
+	height: 380px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+#introtextsecondarycontainer {
+	display: table-cell;
+	vertical-align: middle;	
+}
+
+#introtext {
+	color: #fff;
+	font-weight: lighter;
+	letter-spacing: 1.1px;
+}
+
+#introtext h1 {
+	font-size: 40px;
+}
+
+#introtext h2 {
+	font-size: 22px;
+	letter-spacing: 1.3px;
+}
+
+#introtext p {
+	width: 400px;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+#introtext img {
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+#widgetscontainer {
+	margin-top: 50px;
+	width: 960px;
+	margin: 0 auto;
+	height: 400px;
+	margin-top: 40px;
+}
+
+.widget {
+	/*color: #726e6f;*/
+	color: #00316e;
+}
+
+.widget h1 {
+	font-size: 22px;
+	margin-bottom: 20px;
+	/*color: #327ABD;*/
+	font-variant: small-caps;
+}
+
+#benefitswidget {
+	float: left;
+	width: 480px;	
+}
+
+ul {
+	list-style-image: url('http://www.missionintelligence.org/wp-content/uploads/2011/09/arrow_bullet.png');
+	list-style-position: inside;
+	padding-left: 1.5em;
+	text-indent: -1.4em;
+	margin-top: 20px;	
+}
+
+ul li {
+	margin-bottom: 0.6em;
+}
+
+#partnerswidget {
+	float: right;
+	width: 370px;
+}
+
+#partnerswidget h1 {
+	width: 340px;
+	float: right;
+}
+
+#partnerswidget table {
+	float: right;
+	
+	margin-top: 2px;
+	margin-left: -10px;
+	border-spacing: 0px;
+}
+
+#partnerswidget table td {
+	height: 90px;
+	width: 100px;
+}
+
+#partnerswidget table td div {
+	/*background-color: #726E6F;*/
+	height: 66px;
+	width: 100px;
+	/*margin: 0 auto;*/
+	margin-left: 20px;
+}
+
+#footerhandle {
+	margin-left: -18px;
+	cursor: pointer;
+}
+
+.footerhandlefloating {
+	width: 0px;
+	position:fixed;
+	left:50%;
+	bottom:0px;
+}
+
+.footerhandlepinned {
+	width: 0px;
+	position: absolute;
+	left: 50%;
+	top: 0px;
+	z-index: 1000;
+}
+
+#footercontainercontainer {
+	width: 100%;
+	background-image: url('http://www.missionintelligence.org/wp-content/uploads/2011/09/footer_pattern.png');
+	visibility: hidden;
+}
+
+#footercontainer {
+	background-image: url('http://www.missionintelligence.org/wp-content/uploads/2011/09/footer_pattern.png');
+	padding-top: 50px;
+	padding-bottom: 10px;
+	position: relative;
+	width: 960px;
+	height: 165px;
+	margin: 0 auto;
+}
+
+#fbcontainer {
+	width: 350px;
+	float: right;
+}
+
+.centeredcontainer {
+	width: 960px;
+	margin: 0 auto;	
+}
+
+#main-content h1 {
+	/*font-size: 2em;*/
+	font-size: 22px;
+	color: #00316e;
+	margin-bottom: 10px;
+}
+
+#main-content ol {
+	list-style-position: inside;
+	margin-left: 1em;	
+}
+
+.single-content {
+	width: 640px;
+	margin-bottom: 20px;
+}
+
+#contentcontainer {
+		
+}
+
+#content {
+	/*color: #383838;*/
+	color: #726e6f;
+	/*color: #00316e;*/
+	font-size: 14px;
+	background-color: white;
+}
+
+#main-content {
+	padding-top: 40px;
+	padding-left: 46px;
+	padding-bottom: 34px;
+	margin-bottom: 50px;
+	border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-color: -moz-use-text-color;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-style: none;
+    border-top-width: 0;
+    box-shadow: 0 3px 5px 0 rgba(51, 51, 51, 0.3);	
+}
+
+#quotecontainer {
+	color: #666;
+	/*width: 700px;*/
+}
+
+#quotetext {
+	font-size: 20px;
+	display: table-cell;
+	font-weight: lighter;
+	width: 550px;
+	height: 165px;
+	vertical-align: middle;
+}
+
+#dude {
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#quoteimg {
+	vertical-align: top;
+	margin-right: 8px;
+	margin-top: -2.3em;	
+}
+
+#quotecontainer table td {
+	vertical-align: middle;	
+}
